@@ -369,7 +369,7 @@ ProofPass
 # ⚙️ Local Setup
 
 ```bash
-git clone YOUR_REPO_URL
+git clone https://github.com/mrgraciz123/ProofPass-hackathon-MVP
 
 cd ProofPass
 
