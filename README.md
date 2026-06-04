@@ -1,36 +1,448 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🔗 ProofPass
 
-First, run the development server:
+### Trust Infrastructure for Modern Hiring
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+#### 🚀 From Resume Claims to Verifiable Professional Identity
+
+An AI-powered Web3 hiring platform that transforms resumes, certifications, internships, hackathons, and open-source contributions into trusted digital credentials.
+
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)]()
+[![Gemini AI](https://img.shields.io/badge/Gemini-AI-success)]()
+[![GitHub API](https://img.shields.io/badge/GitHub-Verified-green)]()
+[![Web3](https://img.shields.io/badge/Web3-Ready-purple)]()
+[![Hackathon](https://img.shields.io/badge/Nexus-Hybrid-orange)]()
+
+</div>
+
+---
+
+<p align="center">
+  <img src="./assets/banner.png" width="100%">
+</p>
+
+---
+
+# 🌟 The Problem
+
+The hiring ecosystem suffers from a fundamental trust problem.
+
+Recruiters struggle to identify genuine talent because traditional resumes are easy to manipulate and difficult to verify.
+
+### Current Challenges
+
+❌ Fake resumes
+
+❌ Inflated skill claims
+
+❌ Unverified certifications
+
+❌ Time-consuming candidate screening
+
+❌ No standardized trust metric
+
+❌ High hiring risk
+
+Millions of applicants compete for opportunities, yet recruiters lack reliable mechanisms to validate credibility.
+
+---
+
+# 🚀 Our Solution
+
+ProofPass acts as a **Professional Trust Layer**.
+
+Candidates simply:
+
+📄 Upload Resume
+
+🐙 Connect GitHub
+
+🎓 Verify Credentials
+
+🏆 Showcase Certifications
+
+💼 Highlight Experience
+
+The platform generates:
+
+✅ AI-Powered Skill Passport
+
+✅ Dynamic Trust Score
+
+✅ GitHub Reputation Analysis
+
+✅ Credential Verification Timeline
+
+✅ Recruiter Discovery Dashboard
+
+✅ Professional Credibility Layer
+
+✅ Web3-Ready Identity Infrastructure
+
+---
+
+# ⚡ Quick Access
+
+| Resource        | Link                                   |
+| --------------- | -------------------------------------- |
+| 🌐 Live Demo    | [Open Application](https://proofpass-x8vt.onrender.com/verify) |
+| 📂 Source Code  | [GitHub Repository](https://github.com/mrgraciz123/ProofPass-hackathon-MVP)    |
+| 🎥 Demo Video   | [Watch Demo](ADD_VIDEO_LINK)           |
+| 📑 Presentation | [Pitch Deck](ADD_DECK_LINK)            |
+
+---
+
+# 🧠 Core Features
+
+## 🤖 AI Resume Intelligence
+
+Powered by Google Gemini.
+
+Automatically extracts:
+
+* Skills
+* Education
+* Experience
+* Certifications
+* Projects
+* Professional Insights
+
+Transforming a traditional resume into a structured professional identity.
+
+---
+
+## 🐙 GitHub Reputation Verification
+
+Integrates directly with GitHub to analyze:
+
+* Repository Activity
+* Open Source Contributions
+* Total Stars
+* Account Age
+* Developer Credibility
+
+Real GitHub activity contributes directly to Trust Score calculations.
+
+---
+
+## 📊 Dynamic Trust Score Engine
+
+ProofPass generates a transparent credibility score using verified evidence.
+
+| Verification Source | Weight |
+| ------------------- | ------ |
+| Education           | 25     |
+| GitHub Activity     | 20     |
+| Certifications      | 15     |
+| Internships         | 15     |
+| Hackathons          | 15     |
+| References          | 10     |
+
+### Maximum Score: 100
+
+---
+
+## 🔍 Recruiter Discovery
+
+Recruiters can:
+
+* Discover trusted talent
+* Filter candidates
+* Compare Trust Scores
+* Validate achievements
+* Reduce hiring risk
+* Improve hiring efficiency
+
+---
+
+## 📜 Credential Verification
+
+Every verified achievement contributes to a professional credibility timeline.
+
+Supported credentials:
+
+🎓 Degrees
+
+📚 Certifications
+
+💼 Internships
+
+🏆 Hackathons
+
+🐙 GitHub Contributions
+
+---
+
+## ⛓ Web3 Ready Architecture
+
+ProofPass is designed for the future of verifiable credentials.
+
+Future integrations include:
+
+* On-Chain Credential Storage
+* Credential NFTs
+* Decentralized Identity
+* Verifiable Professional Records
+* Gasless Credential Verification
+
+---
+
+# 🏗 System Architecture
+
+```text
+Resume Upload
+        │
+        ▼
+ Gemini AI Parsing
+        │
+        ▼
+ Professional Passport
+        │
+        ▼
+ GitHub Verification
+        │
+        ▼
+ Trust Score Engine
+        │
+        ▼
+ Credential Verification
+        │
+        ▼
+ Recruiter Discovery
+        │
+        ▼
+ Trusted Hiring
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+ProofPass
+│
+├── src
+│   ├── app
+│   │   ├── passport
+│   │   ├── verify
+│   │   ├── discover
+│   │   └── api
+│   │
+│   ├── components
+│   └── lib
+│
+├── contracts
+│   ├── ProofPassPassport.sol
+│   ├── CredentialSBT.sol
+│   └── RecruiterEscrow.sol
+│
+├── assets
+├── public
+└── README.md
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# 🛠 Technology Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Frontend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Next.js 14
+* React 18
+* TypeScript
+* Tailwind CSS
+* Shadcn UI
 
-## Deploy on Vercel
+## Artificial Intelligence
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Google Gemini API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Verification Layer
+
+* GitHub REST API
+
+## Web3 Layer
+
+* Solidity
+* Hardhat
+
+## Deployment
+
+* Render
+
+---
+
+# 📈 Sample Candidate Insights
+
+| Metric              | Example Value |
+| ------------------- | ------------- |
+| Trust Score         | 89/100        |
+| GitHub Repositories | 42            |
+| Total Stars         | 310           |
+| Certifications      | 5             |
+| Verified Experience | 3             |
+| Match Probability   | 97%           |
+
+---
+
+# 🔥 Why ProofPass?
+
+| Traditional Hiring   | ProofPass             |
+| -------------------- | --------------------- |
+| Resume-Based         | Trust-Based           |
+| Manual Screening     | AI-Powered            |
+| Self-Reported Skills | Verified Credentials  |
+| Static Profiles      | Dynamic Trust Scores  |
+| Recruiter Guesswork  | Data-Driven Decisions |
+| Generic Applications | Verifiable Identity   |
+
+---
+
+# 📸 Product Showcase
+
+## 🏠 Landing Experience
+
+![Landing](https://github.com/mrgraciz123/ProofPass-hackathon-MVP/blob/master/public/screenshots/landing.png)
+
+---
+
+## 🤖 Passport
+
+![Resume Parsing](https://github.com/mrgraciz123/ProofPass-hackathon-MVP/blob/master/public/screenshots/passport.png)
+
+---
+
+## 📄 Varification
+
+![Passport](https://github.com/mrgraciz123/ProofPass-hackathon-MVP/blob/master/public/screenshots/varify.png)
+
+---
+
+## 🔍 Recruiter Discovery Dashboard
+
+![Discover](https://github.com/mrgraciz123/ProofPass-hackathon-MVP/blob/master/public/screenshots/discover.png)
+
+---
+
+
+# 🎯 Impact
+
+## 👨‍🎓 For Candidates
+
+* Build Professional Credibility
+* Showcase Verified Achievements
+* Increase Recruiter Visibility
+* Stand Out Beyond Traditional Resumes
+
+---
+
+## 🏢 For Recruiters
+
+* Reduce Hiring Risk
+* Save Screening Time
+* Discover Trusted Talent
+* Improve Hiring Outcomes
+
+---
+
+## 🌍 For The Ecosystem
+
+* Transparent Hiring
+* Verifiable Achievements
+* Portable Professional Identity
+* Trust-Driven Recruitment
+
+---
+
+# 🔐 Security & Privacy
+
+* Secure API Integrations
+* Protected Environment Variables
+* Credential-Centric Verification
+* Controlled Profile Visibility
+* Blockchain-Ready Infrastructure
+
+---
+
+# ⚙️ Local Setup
+
+```bash
+git clone YOUR_REPO_URL
+
+cd ProofPass
+
+npm install
+
+npm run dev
+```
+
+Open:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+# 🔐 Environment Variables
+
+Create a `.env.local` file:
+
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+
+GITHUB_TOKEN=YOUR_GITHUB_TOKEN
+```
+
+---
+
+# 🔮 Future Roadmap
+
+## Phase 2
+
+🏆 Credential NFTs
+
+🎓 University Verification APIs
+
+🏢 Enterprise Recruiter Dashboard
+
+📜 Employment Verification
+
+🤝 Talent Reputation Marketplace
+
+---
+
+## Phase 3
+
+🌐 Decentralized Professional Identity
+
+⚡ Gasless Credential Verification
+
+🔗 Multi-Chain Verification
+
+🏛 Universal Reputation Layer
+
+🚀 Enterprise Credential Infrastructure
+
+---
+
+# 👨‍💻 Team
+
+### Tech_Lababdar
+
+Built for the Nexus Hybrid Web3 Hackathon
+
+
+---
+
+<div align="center">
+
+# ⭐ ProofPass
+
+### Building the Trust Layer for Modern Hiring
+
+### Trust. Verify. Hire.
+
+</div>
