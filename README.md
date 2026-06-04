@@ -87,7 +87,7 @@ The platform generates:
 
 | Resource        | Link                                   |
 | --------------- | -------------------------------------- |
-| 🌐 Live Demo    | [Open Application](https://proofpass-x8vt.onrender.com/verify) |
+| 🌐 Live Demo    | [Open Application](https://proofpass-x8vt.onrender.com) |
 | 📂 Source Code  | [GitHub Repository](https://github.com/mrgraciz123/ProofPass-hackathon-MVP)    |
 | 🎥 Demo Video   | [Watch Demo](ADD_VIDEO_LINK)           |
 | 📑 Presentation | [Pitch Deck](ADD_DECK_LINK)            |
