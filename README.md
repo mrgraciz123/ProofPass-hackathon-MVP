@@ -89,8 +89,8 @@ The platform generates:
 | --------------- | -------------------------------------- |
 | 🌐 Live Demo    | [Open Application](https://proofpass-x8vt.onrender.com) |
 | 📂 Source Code  | [GitHub Repository](https://github.com/mrgraciz123/ProofPass-hackathon-MVP)    |
-| 🎥 Demo Video   | [Watch Demo](ADD_VIDEO_LINK)           |
-| 📑 Presentation | [Pitch Deck](ADD_DECK_LINK)            |
+| 🎥 Demo Video   | [Watch Demo](https://drive.google.com/file/d/1eLGk9KLiFh3pb16Rq_s5Ud3Lvkfop8sX/view?usp=sharing)           |
+| 📑 Presentation | [Pitch Deck](https://drive.google.com/file/d/1qle4QXdFTkyJ1J0EIeIaYIStiQWZitCD/view?usp=sharing)            |
 
 ---
 
